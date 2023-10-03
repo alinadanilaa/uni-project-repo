@@ -33,7 +33,7 @@ footer {
     left: 0;
     right: 0;
     flex-wrap: wrap;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .foot-nav img {
