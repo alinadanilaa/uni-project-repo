@@ -27,12 +27,14 @@ function ready() {
 }
 
 function purchaseClicked() {
-    alert('Thank you for your purchase')
     var cartItems = document.getElementsByClassName('cart-items')[0]
-    while (cartItems.hasChildNodes()) {
-        cartItems.removeChild(cartItems.firstChild)
+    if (cartItems.hasChildNodes() === true) {
+        alert('Thank you for your purchase')
+        while (cartItems.hasChildNodes()) {
+            cartItems.removeChild(cartItems.firstChild)
+        }
+        updateCartTotal()
     }
-    updateCartTotal()
 }
 
 function removeCartItem(event) {
@@ -58,7 +60,7 @@ function addToCartClicked(event) {
     addItemToCart(title, price, imageSrc)
     updateCartTotal()
     console.log(title, price, imageSrc)
-    
+
 }
 function addItemToCart(title, price, imageSrc) {
     var cartRow = document.createElement('div')
