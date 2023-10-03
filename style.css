@@ -26,10 +26,13 @@ footer {
 
 footer {
     padding-left: 10px;
-
-    position: relative;
+    display: flex;
+    position: absolute;
     padding-bottom: 25px;
-
+    bottom: 0;
+    left: 0;
+    right: 0;
+    flex-wrap: wrap;
     justify-content: end;
 }
 
