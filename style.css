@@ -4,78 +4,90 @@
     font-weight: normal;
     font-style: normal;
 }
-*{
+
+* {
     box-sizing: border-box;
     font-family: "font1";
     color: rgb(71, 53, 83);
 }
-body{
+
+body {
     text-align: justify;
     background-color: rgba(228, 196, 255, 0.301);
 }
 
-header,footer {
+header,
+footer {
     background-color: rgba(248, 236, 255, 0.7);
     background-image: url("Images/background.jpg");
-    background-blend-mode:multiply ; 
+    background-blend-mode: multiply;
     background-size: cover;
 }
-footer{
+
+footer {
     padding-left: 10px;
-    display: flex;
+
     position: relative;
     padding-bottom: 25px;
 
+    justify-content: end;
 }
 
 .foot-nav img {
     width: 30px;
 }
-footer ul{
-    flex-grow: 1;   
+
+footer ul {
+    flex-grow: 1;
     text-align: end;
 }
+
 .foot-nav li {
     padding: 0 .5em;
 }
 
-.header-img{
+.header-img {
     width: 100px;
     border-radius: 40px;
 }
-section{
+
+section {
     margin: 1em;
 }
 
-.copyright{
+.copyright {
     font-size: small;
 }
 
-header ul{
+header ul {
     margin: 0;
 }
 
-nav img{
+nav img {
     padding-top: 10px;
 }
-.nav li{
+
+.nav li {
     display: inline;
 }
-.nav a{
+
+.nav a {
     display: inline-block;
     padding: .5em;
     color: black;
     text-decoration: none;
 }
-.nav a:hover{
+
+.nav a:hover {
     background-color: rgba(182, 92, 255, 0.6);
 }
-.main-nav{
+
+.main-nav {
     text-align: center;
     font-size: 1.1em;
 }
 
-.main-name{
+.main-name {
     margin: 0;
     font-size: 3.5em;
     font-family: "font1";
@@ -86,7 +98,7 @@ nav img{
 */
 
 
-.S3{
+.S3 {
     background-color: #ffe1f9;
     max-width: 70%;
     margin: 0 auto;
@@ -95,10 +107,11 @@ nav img{
     border-radius: 10px;
 }
 
-.S3-center{
+.S3-center {
     text-align: center;
 }
-.ImS3{
+
+.ImS3 {
     position: absolute;
     margin: 1em;
     padding: 0 1.5em;
@@ -132,9 +145,9 @@ nav img{
 
 .input-group {
     display: flex;
-  }
-  
-  .input {
+}
+
+.input {
     margin-left: 40%;
     min-height: 50px;
     max-width: 500px;
@@ -144,9 +157,9 @@ nav img{
     border: 1px solid #b93fa6;
     border-radius: 6px 0 0 6px;
     background-color: transparent;
-  }
-  
-  .button--submit {
+}
+
+.button--submit {
     min-height: 50px;
     padding: .5em 1em;
     border: none;
@@ -156,24 +169,25 @@ nav img{
     font-size: 15px;
     cursor: pointer;
     transition: background-color .3s ease-in-out;
-  }
-  
-  .button--submit:hover {
+}
+
+.button--submit:hover {
     background-color: rgb(134, 5, 170);
-  }
-  
-  .input:focus, .input:focus-visible {
+}
+
+.input:focus,
+.input:focus-visible {
     border-color: rgb(134, 5, 170);
     outline: none;
-  }
-  
-  .S4-home {
+}
+
+.S4-home {
     text-align: center;
 }
 
-.form-home{
+.form-home {
     display: block;
-    width:100%;
+    width: 100%;
     align-self: center;
     text-align: center;
 }
@@ -182,36 +196,37 @@ nav img{
     FAQ.html
 */
 
-details{
+details {
     background-color: #fccfcf;
     font-size: 1.3rem;
-  }
-  
-  summary {
+}
+
+summary {
     padding: .3em 1.3rem;
     list-style: none;
     display: flex;
-    justify-content: space-between;  
-  }
+    justify-content: space-between;
+}
 
 
-  details[open] summary {
-      border-bottom: 1px solid #d0a5a5;
-      margin-bottom: .5em;
-  }
-  
-  details[open] div{
+details[open] summary {
+    border-bottom: 1px solid #d0a5a5;
+    margin-bottom: .5em;
+}
+
+details[open] div {
     padding: .5em 1em;
-  }
+}
 
- summary:after{
+summary:after {
     content: "\002B";
 }
-details[open] summary:after{
+
+details[open] summary:after {
     content: "\00D7";
 }
 
-.S3-text-faq{
+.S3-text-faq {
     background-color: #ffe1f9;
     max-width: 80%;
     margin: 0 auto;
@@ -221,7 +236,7 @@ details[open] summary:after{
     border-radius: 10px;
 }
 
-.im-faq{
+.im-faq {
     position: absolute;
 
     padding: 0 1.5em;
@@ -233,28 +248,32 @@ details[open] summary:after{
 /*
     CONTACT.html
 */
-.S1-contact{
+.S1-contact {
     text-align: center;
 
 }
-.form-mess{
+
+.form-mess {
     margin-right: 120px;
 }
-.form-left{
+
+.form-left {
     margin-right: 180px;
 }
-.form-right{
+
+.form-right {
     margin-right: 50px;
 
 }
-  .form-contact {
+
+.form-contact {
     padding: 1rem;
     color: #493a3a;
     font-size: 15px;
     background-color: transparent;
-  }
+}
 
-  .fcf-form-control{
+.fcf-form-control {
     padding: 5px;
     min-width: 230px;
     border-radius: 6px;
@@ -262,50 +281,53 @@ details[open] summary:after{
     background-color: #d900ff0c;
     border-color: transparent;
     border-bottom-color: rgb(170, 5, 156);
-  }
-  .fcf-form-control:focus, .fcf-form-control:focus-visible {
-    
+}
+
+.fcf-form-control:focus,
+.fcf-form-control:focus-visible {
+
     background-color: #d900ff28;
     border-bottom-color: rgb(134, 5, 170);
     outline: none;
-  }
+}
 
 .button--submit2 {
     min-height: 50px;
     padding: .5em 1em;
     border: none;
-    border-radius:6px;
+    border-radius: 6px;
     background-color: #b93fa6;
     color: #fff;
     font-size: 15px;
     cursor: pointer;
     transition: background-color .3s ease-in-out;
-  }
-    
-  .button--submit2:hover {
-    background-color: rgb(134, 5, 170);
-  }
-  
+}
 
-  /*
+.button--submit2:hover {
+    background-color: rgb(134, 5, 170);
+}
+
+
+/*
         SHOP.html
   */
-  .shop-title{
+.shop-title {
     text-align: center;
     font-size: 30px;
-  }
+}
 
-.shop{
-    margin:0 auto;
+.shop {
+    margin: 0 auto;
     max-width: 93%;
     padding: 0 1.5em;
 }
 
-.shop-item{
+.shop-item {
     margin: 15px;
     background-color: #ff8bc149;
 }
-.shop-item-title{
+
+.shop-item-title {
     display: block;
     width: 100%;
     text-align: center;
@@ -314,22 +336,23 @@ details[open] summary:after{
     margin-bottom: 15px;
 }
 
-.shop-img{
+.shop-img {
     height: 210px;
     align-content: center;
-    
+
 }
-.shop-item-details{
+
+.shop-item-details {
     display: flex;
     align-items: center;
     padding: 5px;
 }
 
-.shop-item-price{
+.shop-item-price {
     flex-grow: 1;
 }
 
-.shop-items{
+.shop-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -445,13 +468,14 @@ details[open] summary:after{
 */
 
 
-.about-item{
+.about-item {
     display: flex;
     margin: 15px;
     width: 90%;
     background-color: #ff8bc149;
 }
-.about-item-title{
+
+.about-item-title {
     display: block;
     width: 30%;
     text-align: center;
@@ -460,19 +484,20 @@ details[open] summary:after{
     margin-bottom: 10px;
 }
 
-.about-img{
+.about-img {
     height: 210px;
     align-content: center;
-    
+
 }
-.about-item-details{
+
+.about-item-details {
     display: flex;
     align-items: center;
     padding: 5px;
 }
 
 
-.about-items{
+.about-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
