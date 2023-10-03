@@ -149,11 +149,13 @@ nav img {
 
 
 .input-group {
-    display: flex;
+    display: inline-flex;
+    position: relative;
+    align-self: center;
 }
 
 .input {
-    margin-left: 40%;
+
     min-height: 50px;
     max-width: 500px;
     padding: 0 1rem;
@@ -329,6 +331,7 @@ details[open] summary:after {
 
 .shop-item {
     margin: 15px;
+    border-radius: 0.2rem;
     background-color: #ff8bc149;
 }
 

@@ -25,7 +25,7 @@ function ready() {
 
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
 }
-
+/*
 function purchaseClicked() {
     var cartItems = document.getElementsByClassName('cart-items')[0]
     if (cartItems.hasChildNodes()) {
@@ -40,23 +40,23 @@ function purchaseClicked() {
         alert('Your cart is empty. Please add items before purchasing.');
     }
 }
-/*
+*/
+
 function purchaseClicked() {
     var cartItems = document.getElementsByClassName('cart-items')[0];
+    var cartItemElements = cartItems.getElementsByClassName('cart-row');
 
-    // Check if cartItems has child nodes
-    if (cartItems.hasChildNodes()) {
+    // Check if there are any cart items
+    if (cartItemElements.length > 0) {
         alert('Thank you for your purchase');
         while (cartItems.hasChildNodes()) {
             cartItems.removeChild(cartItems.firstChild);
         }
         updateCartTotal();
     } else {
-        // If cartItems is empty, you might want to handle this case differently
         alert('Your cart is empty. Please add items before purchasing.');
     }
 }
-*/
 
 function removeCartItem(event) {
     var buttonClicked = event.target
