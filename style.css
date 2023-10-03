@@ -5,6 +5,10 @@
     font-style: normal;
 }
 
+html {
+    height: 100%;
+}
+
 * {
     box-sizing: border-box;
     font-family: "font1";
@@ -12,6 +16,8 @@
 }
 
 body {
+    min-height: 100vh;
+    position: relative;
     text-align: justify;
     background-color: rgba(228, 196, 255, 0.301);
 }
@@ -26,14 +32,10 @@ footer {
 
 footer {
     padding-left: 10px;
-    display: flex;
-    position: absolute;
     padding-bottom: 25px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+
+    position: sticky;
+    top: 100%;
 }
 
 .foot-nav img {
