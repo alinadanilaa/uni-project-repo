@@ -25,6 +25,7 @@ function ready() {
 
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
 }
+
 /*
 function purchaseClicked() {
     var cartItems = document.getElementsByClassName('cart-items')[0]

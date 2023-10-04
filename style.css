@@ -32,8 +32,6 @@ footer {
 
 footer {
     padding-left: 10px;
-    padding-bottom: 25px;
-
     position: sticky;
     top: 100%;
 }
@@ -50,6 +48,7 @@ footer ul {
 .foot-nav li {
     padding: 0 .5em;
 }
+
 
 .header-img {
     width: 100px;
