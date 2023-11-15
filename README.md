@@ -1,0 +1,3 @@
+# uni-project-repo
+
+This site was made as a university project...
