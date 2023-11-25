@@ -12,7 +12,6 @@ The Tufting Spot website serves as a hub for a tufting shop and blog, offering a
 
 - **Shop:** Discover a curated collection of handmade rugs, each crafted with care and attention to detail. The shop section allows visitors to explore a variety of styles, colors, and sizes to find the perfect addition to their homes.
 
-- **Blog:** Immerse yourself in the world of tufting through the blog, where you can delve into articles, tutorials, and discussions about the art of rug making. Whether you're a seasoned tufter or a beginner looking to learn, the blog section offers valuable insights and community interaction.
 
 - **Q&A Section:** Have questions about tufting or need advice on a project? The Tufting Spot website features a dedicated Q&A section where visitors can seek guidance, share experiences, and connect with fellow enthusiasts.
 
